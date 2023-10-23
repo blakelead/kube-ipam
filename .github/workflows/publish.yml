@@ -26,7 +26,7 @@ jobs:
       id: docker_build
       uses: docker/build-push-action@v5
       with:
-        context: ./config/docker
+        context: .
         push: true
         tags: ghcr.io/blakelead/kube-ipam:latest
 

@@ -3,6 +3,9 @@ name: Publish Docker Image
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - readme.md
+      - deploy/**
 
 jobs:
   build-and-push:

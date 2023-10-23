@@ -1,5 +1,11 @@
 # kube-ipam
 
+## ⚠️ Disclaimer
+
+This project is a prototype and is intended for educational purposes only. It is not designed to be used in production environments.
+
+## Overview
+
 kube-ipam is an IP address manager designed to allocate external IPs to Kubernetes services of type LoadBalancer.
 
 ## Installation

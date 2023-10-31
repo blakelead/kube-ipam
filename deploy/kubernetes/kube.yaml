@@ -42,6 +42,6 @@ spec:
   serviceAccountName: kube-ipam
   containers:
     - name: kube-ipam
-      image: blakelead/kube-ipam:latest
+      image: ghcr.io/blakelead/kube-ipam:latest
       args:
         - --cidr=192.168.10.0/24
